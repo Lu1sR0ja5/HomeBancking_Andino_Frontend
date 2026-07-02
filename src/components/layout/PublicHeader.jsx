@@ -18,7 +18,11 @@ export default function PublicHeader() {
       <div className="hb-franja-top" />
       <div className="lp-nav">
         <button className="lp-brand" onClick={() => navigate('/')} aria-label="Banco Andino — Inicio">
-          <Logo size={38} variant="dark" subtitle="BANCA DIGITAL" />
+        <img
+          src="./assets/bancopichincha.png"          
+          alt="Logo"
+          width={150}
+        />
         </button>
 
         <nav className="lp-nav-links">

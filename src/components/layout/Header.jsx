@@ -40,7 +40,11 @@ export default function Header() {
       <div className="bbva-topbar">
         <div className="bbva-topbar-inner">
           <button className="bbva-brand" onClick={() => navigate('/inicio')} aria-label="Inicio">
-            <Logo size={36} variant="light" subtitle="BANCA POR INTERNET" />
+          <img
+          src="./assets/bancopichincha.png"          
+          alt="Logo"
+          width={150}
+          />
           </button>
 
           <div className="bbva-topbar-right">
